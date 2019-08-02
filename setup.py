@@ -25,7 +25,6 @@ import io
 import re
 from distutils.cmd import Command
 
-import copyright
 import setuptools
 
 
@@ -54,6 +53,7 @@ class UpdateCopyrightCommand(Command):
         pass
 
     def run(self):
+        import copyright
         copyright.App.main(['-c', 'development/copyright.json', '.'])
 
 
