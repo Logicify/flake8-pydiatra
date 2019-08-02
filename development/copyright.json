@@ -1,0 +1,10 @@
+{
+  "author": "Kirill Malyshev",
+  "back": false,
+  "license": "mit",
+  "include": "./flake8_pydiatra.py,./setup.py",
+  "program": "flake8-pydiatra",
+  "short": "Pydiatra plugin for flake8.",
+  "single": true,
+  "year": "2019"
+}
